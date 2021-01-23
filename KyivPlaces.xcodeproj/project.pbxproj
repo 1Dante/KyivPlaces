@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9C591658E6BBE4ED4C0D6F /* Pods_KyivPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5B402EC512F4DC69D26C74 /* Pods_KyivPlaces.framework */; };
+		FAF8D14725B7621800E2A60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D14625B7621800E2A60E /* AppDelegate.swift */; };
+		FAF8D14925B7621800E2A60E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D14825B7621800E2A60E /* SceneDelegate.swift */; };
+		FAF8D14B25B7621800E2A60E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D14A25B7621800E2A60E /* ViewController.swift */; };
+		FAF8D14E25B7621800E2A60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D14C25B7621800E2A60E /* Main.storyboard */; };
+		FAF8D15025B7621B00E2A60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D14F25B7621B00E2A60E /* Assets.xcassets */; };
+		FAF8D15325B7621B00E2A60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D15125B7621B00E2A60E /* LaunchScreen.storyboard */; };
+		FAF8D15E25B7624600E2A60E /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D15D25B7624600E2A60E /* Places.swift */; };
+		FAF8D16725B762FB00E2A60E /* FetchPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D16625B762FB00E2A60E /* FetchPlaces.swift */; };
+		FAF8D16B25B8A5B400E2A60E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D16A25B8A5B400E2A60E /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FA28D2203F491B2B551BEE8 /* Pods-KyivPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KyivPlaces.debug.xcconfig"; path = "Target Support Files/Pods-KyivPlaces/Pods-KyivPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		B909F709293694FC1FB902BD /* Pods-KyivPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KyivPlaces.release.xcconfig"; path = "Target Support Files/Pods-KyivPlaces/Pods-KyivPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		DF5B402EC512F4DC69D26C74 /* Pods_KyivPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KyivPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF8D14325B7621800E2A60E /* KyivPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyivPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF8D14625B7621800E2A60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF8D14825B7621800E2A60E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAF8D14A25B7621800E2A60E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF8D14D25B7621800E2A60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF8D14F25B7621B00E2A60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF8D15225B7621B00E2A60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF8D15425B7621B00E2A60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF8D15D25B7624600E2A60E /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		FAF8D16625B762FB00E2A60E /* FetchPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPlaces.swift; sourceTree = "<group>"; };
+		FAF8D16A25B8A5B400E2A60E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF8D14025B7621800E2A60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C591658E6BBE4ED4C0D6F /* Pods_KyivPlaces.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39467E755C2ED82DCA13C389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5B402EC512F4DC69D26C74 /* Pods_KyivPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		584A34CBBFE037F1279B3E64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA28D2203F491B2B551BEE8 /* Pods-KyivPlaces.debug.xcconfig */,
+				B909F709293694FC1FB902BD /* Pods-KyivPlaces.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAF8D13A25B7621800E2A60E = {
+			isa = PBXGroup;
+			children = (
+				FAF8D14525B7621800E2A60E /* KyivPlaces */,
+				FAF8D14425B7621800E2A60E /* Products */,
+				584A34CBBFE037F1279B3E64 /* Pods */,
+				39467E755C2ED82DCA13C389 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF8D14425B7621800E2A60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8D14325B7621800E2A60E /* KyivPlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF8D14525B7621800E2A60E /* KyivPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8D16525B762D600E2A60E /* Networking */,
+				FAF8D15C25B7623800E2A60E /* Model */,
+				FAF8D14625B7621800E2A60E /* AppDelegate.swift */,
+				FAF8D14825B7621800E2A60E /* SceneDelegate.swift */,
+				FAF8D14A25B7621800E2A60E /* ViewController.swift */,
+				FAF8D16A25B8A5B400E2A60E /* MapViewController.swift */,
+				FAF8D14C25B7621800E2A60E /* Main.storyboard */,
+				FAF8D14F25B7621B00E2A60E /* Assets.xcassets */,
+				FAF8D15125B7621B00E2A60E /* LaunchScreen.storyboard */,
+				FAF8D15425B7621B00E2A60E /* Info.plist */,
+			);
+			path = KyivPlaces;
+			sourceTree = "<group>";
+		};
+		FAF8D15C25B7623800E2A60E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8D15D25B7624600E2A60E /* Places.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAF8D16525B762D600E2A60E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAF8D16625B762FB00E2A60E /* FetchPlaces.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF8D14225B7621800E2A60E /* KyivPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF8D15725B7621B00E2A60E /* Build configuration list for PBXNativeTarget "KyivPlaces" */;
+			buildPhases = (
+				E7DC4E0E1CD367FEE8E953BB /* [CP] Check Pods Manifest.lock */,
+				FAF8D13F25B7621800E2A60E /* Sources */,
+				FAF8D14025B7621800E2A60E /* Frameworks */,
+				FAF8D14125B7621800E2A60E /* Resources */,
+				80AA7715DD4B9675AA6A6D81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KyivPlaces;
+			productName = KyivPlaces;
+			productReference = FAF8D14325B7621800E2A60E /* KyivPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF8D13B25B7621800E2A60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FAF8D14225B7621800E2A60E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FAF8D13E25B7621800E2A60E /* Build configuration list for PBXProject "KyivPlaces" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF8D13A25B7621800E2A60E;
+			productRefGroup = FAF8D14425B7621800E2A60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF8D14225B7621800E2A60E /* KyivPlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF8D14125B7621800E2A60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8D15325B7621B00E2A60E /* LaunchScreen.storyboard in Resources */,
+				FAF8D15025B7621B00E2A60E /* Assets.xcassets in Resources */,
+				FAF8D14E25B7621800E2A60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80AA7715DD4B9675AA6A6D81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KyivPlaces/Pods-KyivPlaces-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KyivPlaces/Pods-KyivPlaces-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KyivPlaces/Pods-KyivPlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DC4E0E1CD367FEE8E953BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KyivPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF8D13F25B7621800E2A60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF8D14B25B7621800E2A60E /* ViewController.swift in Sources */,
+				FAF8D16B25B8A5B400E2A60E /* MapViewController.swift in Sources */,
+				FAF8D14725B7621800E2A60E /* AppDelegate.swift in Sources */,
+				FAF8D14925B7621800E2A60E /* SceneDelegate.swift in Sources */,
+				FAF8D15E25B7624600E2A60E /* Places.swift in Sources */,
+				FAF8D16725B762FB00E2A60E /* FetchPlaces.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF8D14C25B7621800E2A60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF8D14D25B7621800E2A60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF8D15125B7621B00E2A60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF8D15225B7621B00E2A60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF8D15525B7621B00E2A60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF8D15625B7621B00E2A60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF8D15825B7621B00E2A60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA28D2203F491B2B551BEE8 /* Pods-KyivPlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43WY7YM2KD;
+				INFOPLIST_FILE = KyivPlaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dante.KyivPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAF8D15925B7621B00E2A60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B909F709293694FC1FB902BD /* Pods-KyivPlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43WY7YM2KD;
+				INFOPLIST_FILE = KyivPlaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dante.KyivPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF8D13E25B7621800E2A60E /* Build configuration list for PBXProject "KyivPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8D15525B7621B00E2A60E /* Debug */,
+				FAF8D15625B7621B00E2A60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF8D15725B7621B00E2A60E /* Build configuration list for PBXNativeTarget "KyivPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF8D15825B7621B00E2A60E /* Debug */,
+				FAF8D15925B7621B00E2A60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF8D13B25B7621800E2A60E /* Project object */;
+}

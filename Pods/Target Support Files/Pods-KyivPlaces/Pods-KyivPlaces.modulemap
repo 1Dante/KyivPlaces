@@ -1,0 +1,6 @@
+framework module Pods_KyivPlaces {
+  umbrella header "Pods-KyivPlaces-umbrella.h"
+
+  export *
+  module * { export * }
+}
